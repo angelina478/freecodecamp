@@ -1,0 +1,8 @@
+# string concatenation (aka how to put strings togeher)
+# suppse we want to create a string that says "subscribe to ____"
+youtuber = "Kalie Ying" # some string variable
+
+# a few ways to do this
+print("subscribe to " + youtuber)
+print("subscribe to {}".formate(youtuber))
+print(f"subscribe to (youtuber)")
